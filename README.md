@@ -6,9 +6,9 @@ var ConversationV1 = require('watson-developer-cloud/conversation/v1');
 
 // Set up Conversation service wrapper.
 var conversation = new ConversationV1({
-  username: 'USERNAME', // replace with username from service key
-  password: 'PASSWORD', // replace with password from service key
-  path: { workspace_id: 'WORKSPACE_ID' }, // replace with workspace ID
+  username: 'Credentials-1', // replace with username from service key
+  password: '7422ca0d-cc8f-4767-9986-b52ffc6e3826', // replace with password from service key
+  path: { workspace_id: '8a01ca06-3245-42cb-b4fa-67b38c6e54ee' }, // replace with workspace ID
   version_date: '2016-07-11'
 });
 
